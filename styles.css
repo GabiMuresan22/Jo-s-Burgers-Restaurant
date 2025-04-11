@@ -4,19 +4,47 @@
   padding: 0;
 }
 
+html,
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
+  line-height: 1.5;
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: -2px;
 }
 
 ul {
   list-style-type: none;
 }
+
+img {
+ max-width: 100%;
+}
+
+/* Utilities Classes */
+
+.btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header Section */
 
 header {
   height: 5rem;
@@ -58,14 +86,52 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-
-
-
-
 /* Hero Section */
 
-.hero {
+#hero {
   background-color: #ee4a1e;
   color: #000;
+  padding-bottom: 2.5rem;
 }
+
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  display: flex;
+  position: relative;
+}
+
+.hero-text {
+  margin: 1.5rem 0;
+}
+
+.hero-title::after {
+  content: '';
+  width: 124.5px;
+  height: 124.5px;
+  background: url('./img/smile.svg') no-repeat center / cover;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  margin: 0 auto; 
+}
+
+.hero-info .btn {
+width: 40%;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
 
