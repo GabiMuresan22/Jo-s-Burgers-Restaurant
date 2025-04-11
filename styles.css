@@ -14,10 +14,16 @@ h1 {
   font-weight: 600;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header {
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   padding: 1rem 2rem;
+  background-color: #ee4a1e;
+  color: #000;
 }
 
 .navbar {
@@ -35,6 +41,31 @@ header {
 .navbar span {
   font-size: 1.4rem;
   font-weight: 400;
+}
 
+.navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar .menu li a {
+text-decoration: none;
+color: #000;
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+
+
+
+
+/* Hero Section */
+
+.hero {
+  background-color: #ee4a1e;
+  color: #000;
 }
 
