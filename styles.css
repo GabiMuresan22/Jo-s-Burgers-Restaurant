@@ -134,4 +134,64 @@ width: 40%;
   width: 100%;
 }
 
+/* About US Section */
+
+#about-us {
+  background-color: #f6f2f0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: flex-start;
+  padding: 4rem 0; 
+}
+
+.about-column-left,
+.about-column-right {
+  display: flex;
+  justify-content: center;
+}
+
+.about-column-left h2 {
+  font-size: 3rem;
+  color: #ee4a1e;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  line-height: 55px;
+  display: inline-block;
+  width: 60%;
+}
+
+.about-img figcaption {
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-column-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.about-food {
+  width: 50%;
+}
+
+.about-food h2  {
+  font-size: 3rem;
+  color: #ee4a1e;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.about-food p {
+  color: #ee4a1e;
+}
+
 
