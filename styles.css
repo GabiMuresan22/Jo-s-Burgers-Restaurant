@@ -195,9 +195,27 @@ width: 40%;
   color: #ee4a1e;
 }
 
-/* Different img */
+/* Menu Different img */
 
 #different img {
   width: 100%;
+  height: 100%;
 }
 
+/* Menu Section */
+
+#menu {
+  background-color: #f6f2f0;
+}
+
+#menu .menu-title {
+color: #ee4a1e;
+font-size: 2rem;
+padding-top: 4rem;
+text-transform: uppercase;
+}
+
+#menu .menu-info {
+  color: #ee4a1e;
+  margin: 1.4rem 0;
+}
